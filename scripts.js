@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: "Background Color Changer",
             description: "A simple project to change the background color.",
-            liveLink: "https://<your-username>.github.io/webplayground/projects/background-color-changer/",
-            sourceLink: "https://github.com/<your-username>/webplayground/tree/main/projects/background-color-changer"
+            liveLink: "https://mirnalkishor.github.io/BackGround-color-changer/",
+            sourceLink: "https://github.com/Mirnalkishor/WebPlayground/tree/main/Projects/Color-changer"
         },
         {
             title: "Rock Paper Scissor",
             description: "A classic rock paper scissors game.",
-            liveLink: "https://<your-username>.github.io/webplayground/projects/rock-paper-scissor/",
-            sourceLink: "https://github.com/<your-username>/webplayground/tree/main/projects/rock-paper-scissor"
+            liveLink: "https://mirnalkishor.github.io/hand-game/",
+            sourceLink: "https://github.com/Mirnalkishor/WebPlayground/tree/main/Projects/Rock%20Paper%20Scissors%20Game"
         },
         {
             title: "GitHub README File Generator",
