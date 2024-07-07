@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Changer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Georgia;
+        }
+        .color-button {
+            display: inline-block;
+            width: 15rem;
+            height: 15rem;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        #grey { background-color: grey; }
+        #white { background-color: white; border: 1px solid #000; }
+        #blue { background-color: blue; }
+        #yellow { background-color: yellow; }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <header class="shadow-lg text-center p-8 font-bold mb-4 bg-white flex justify-between items-center mt-4">
+        <h1 class="text-5xl flex-grow font-family:Arial">Background Color Changer</h1>
+        <nav>
+            <a href="#" class="px-4 py-3">Home</a>
+            <a href="#">
+                <button class="px-4 py-3 font-bold bg-blue-900 text-white rounded hover:bg-red-700"><a href="https://github.com/Mirnalkishor">GitHub</a></button>
+            </a>
+        </nav>
+    </header>
+    <h2 class="text-center py-7 font-bold text-2xl mb-4">Color Schema Switcher</h2>
+    <div class="flex justify-center">
+        <span class="color-button" id="grey"></span>
+        <span class="color-button" id="white"></span>
+        <span class="color-button" id="blue"></span>
+        <span class="color-button" id="yellow"></span>
+    </div>
+    <script>script.js</script>
+</body>
+</html>
