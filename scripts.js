@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "A classic rock paper scissors game.",
             liveLink: "https://<your-username>.github.io/webplayground/projects/rock-paper-scissor/",
             sourceLink: "https://github.com/<your-username>/webplayground/tree/main/projects/rock-paper-scissor"
+        },
+        {
+            title: "GitHub README File Generator",
+            description: "A tool to generate GitHub profile README files.",
+            liveLink: "https://mirnalkishor.github.io/GitHub-Profile-README-Generator/",
+            sourceLink: "https://github.com/mirnalkishor/GitHub-Profile-README-Generator"
         }
         // Add more projects as needed
     ];
